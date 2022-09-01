@@ -1,0 +1,30 @@
+<?php
+ini_set( 'display_errors', 1 );
+error_reporting( E_ALL );
+
+$userEmail = filter_var($_POST['post_email'], FILTER_SANITIZE_EMAIL);
+if ($userEmail == false) { echo 'Wrong email';
+    exit;
+}
+
+$userMessage = filter_var(
+    $_POST['post_message'],
+    FILTER_SANITIZE_STRING,
+    FILTER_FLAG_STRIP_LOW|FILTER_FLAG_ENCODE_HIGH
+);
+if($userMessage == false){ $error = 'Wrong user message';
+    exit;
+}
+
+
+$from = "jynbox@landings.sendtoeugeen.hosty.com";
+$to = $userEmail;
+$subject = "Message from website";
+$message = 'Your message has been received. We will get in touch with you soon'; 
+$headers = "From:" . $from;
+if(mail($to,$subject,$message, $headers)) {
+    echo "Thanks! Our manager will contact you";
+} else {
+    echo "Mail error";
+}
+exit();

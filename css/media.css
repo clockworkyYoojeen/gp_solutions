@@ -1,0 +1,248 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1500px) {
+      .header-top__header-menu{
+        margin-left: 40px;
+      }
+  }
+@media only screen and (max-width: 1400px) {
+    .icon_menu {
+      display:block;
+    }
+    .header-top__header-menu{
+      display: none;
+    }
+    .header-top__header-buttons{
+      display: none;
+    }
+    .brands__images-cont{
+      width: 85%;
+      margin-left: auto;
+      margin-right: auto
+    }
+  }
+
+@media only screen and (max-width: 1100px) {
+  .brands__images-cont{
+    justify-content: space-around;
+  }
+  .challenges__cont{
+    width: 85%;
+  }
+  .channels__types h2, .channels__key-channels h2{
+    font-size: 26px;
+  }
+  .channels__types-cont{
+    padding-left: 30px;
+  }
+  .channels__types{
+    margin-left: 16px;
+  }
+  .get_in{
+    padding-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .content-king, .brands{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .content-king__cont{
+    flex-direction: column;
+    width: 85%;
+  }
+  .content-king__text{
+    width: 80%;
+    padding-left: 0;
+  }
+  .key-channels-cont{
+    margin-right: 15%;
+  }
+  .button-cont{
+    margin-right: 15%;
+  }
+  .contact-cont{
+    flex-direction: column;
+  }
+  .contact-left, .contact-right{
+    width: 80%;
+  }
+  .contact-right{
+    margin-left: 0;
+    margin-top: 44px;
+  }
+  .get_in{
+    margin-left: 0;
+  }
+  .menus-group{
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .challenges, .our-solutions, .we-cover{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .challenges__cont, .our-solutions__cont{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .challenges__card, .our-solutions__card{
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .tingle-modal-box{
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .channels{
+    flex-direction: column;
+    align-items: center;
+  }
+  .channels__types{
+    width: 85%;
+    max-width: 85%;
+    margin-left: 0;
+    background-size: cover;
+  }
+  .channels__types-cont{
+    padding-left: 18px;
+  }
+  .channels__key-channels{
+    width: 85%;
+    max-width: 85%;
+    padding-left: 0;
+  }
+  .channels__key-channels-cont{
+    margin-right: 0;
+  }
+  .channels__key-channels h2{
+    text-align: center;
+    margin-left: 0;
+  }
+  .channels__key-channels img{
+    width: 100%;
+  }
+  .button-cont{
+    margin-right: 0;
+  }
+  .white-space{
+    height: 70px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .icon_menu{
+    right: 30px;
+  }
+  .slide-text{
+    top: 200px;
+    font-size: 42px;
+    line-height: 55px;
+  }
+  .in-touch{
+    margin-top: 45px;
+    padding: 11px 48px;
+    font-size: 16px;
+  }
+  .content-king__image-cont{
+    width: 65%;
+  }
+  .contact-cont{
+    width: 85%;
+  }
+  .blue-cover{
+    display: none;
+  }
+  .get_in{
+    padding-left: 25px;
+  }
+  .tingle-modal-box{
+    width: 80%;
+    min-width: 300px;
+  }
+  .tingle-modal-box__content .common-header{
+    font-size: 24px;
+    padding-bottom: 14px;
+    line-height: 24px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .trusted__banner{
+    display: none;
+  }
+}
+.footer-top button{
+  padding: 5px 38px;
+  font-size: 14px;
+}
+@media only screen and (max-width: 600px) {
+  .contact-left, .contact-right{
+    width: 100%;
+  }
+  .footer-top a{
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .common-header{
+    font-size: 34px;
+    line-height: 120%;
+  }
+  .slide-text{
+    top: 170px;
+    left: 12%;
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .in-touch{
+    margin-top: 35px;
+    padding: 11px 48px;
+    font-size: 16px;
+  }
+  .trusted__slide-row{
+    flex-direction: column;
+    align-items: center;
+  }
+  .trusted__client{
+    flex-direction: column;
+    align-items: center;
+  }
+  .trusted__info{
+    text-align: center;
+  }
+  .channels__types{
+    width: 95%;
+    max-width: 95%;
+  }
+}
+
+@media only screen and (max-width: 540px){
+  .tingle-modal-box{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Mobile Phones */
+@media only screen and (max-width: 460px) {
+  .slide-text{
+    font-size: 32px;
+    line-height: 44px;
+  }
+  .mobile-menu-cont{
+    min-width: 320px;
+    max-width: 100%;
+  }
+  .common-header{
+    font-size: 30px;
+  }
+}
