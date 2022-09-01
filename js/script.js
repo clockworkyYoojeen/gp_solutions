@@ -101,7 +101,7 @@ $('.send-btn').click(function(){
         return;
     }
     $.ajax({
-        url: 'http://gpsolutions/testmail.php',
+        url: 'https://landings.sendtoeugeen.hosty.by/gpsolutions/testmail.php',
         data: {post_email: email, post_message: message},
         method:  'POST',
         error: function(res){
@@ -180,7 +180,7 @@ $('.contact-cont form').submit(function(e){
     $('.sending-info').addClass('sending');
     $('.sending-info').text('Sending message...');
     $.ajax({
-        url: 'http://gpsolutions/testmail2.php',
+        url: 'https://landings.sendtoeugeen.hosty.by/gpsolutions/testmail2.php',
         method: 'POST',
         data: {userName, userEmail, userMessage},
         error: function(res){
