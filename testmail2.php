@@ -2,7 +2,7 @@
 ini_set( 'display_errors', 1 );
 error_reporting( E_ALL );
 
-sleep(4);
+// sleep(2);
 
 $error = '';
 $userEmail = filter_var($_POST['userEmail'], FILTER_SANITIZE_EMAIL);
