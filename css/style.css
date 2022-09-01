@@ -358,7 +358,7 @@ justify-content: center;
     padding: 50px 33px 70px 33px;
     border-top-left-radius: 8px;
     border-bottom-right-radius: 8px;
-    background-image: url(https://landings.sendtoeugeen.hosty.by/gpsolutions/img/corner-right.png), url(https://landings.sendtoeugeen.hosty.by/gpsolutions/img/corner-left.png);
+    background-image: url(https://gpsolutionstask.netlify.app/img/corner-right.png), url(https://gpsolutionstask.netlify.app/img/corner-left.png);
     background-repeat: no-repeat, no-repeat;
     background-position: top right, bottom left;
 } 
@@ -553,7 +553,7 @@ line-height: 170%;
     max-width: 595px;
     padding-top: 58px;
     padding-bottom: 86px;
-    background-image: url(https://landings.sendtoeugeen.hosty.by/gpsolutions/img/webp/channel-bg.webp);
+    background-image: url(https://gpsolutionstask.netlify.app/img/webp/channel-bg.webp);
     background-repeat: no-repeat;
     background-position: center center;
     margin-left: 12.68%;
